@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "hello $Linux!"
+user=$(whoami)
+echo "hello $user!"
