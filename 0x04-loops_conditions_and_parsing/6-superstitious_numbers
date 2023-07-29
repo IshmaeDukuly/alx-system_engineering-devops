@@ -4,7 +4,7 @@
 # "bad luck from Japan" 9th, and "bad luck from Italy" 17th
 
 n=1
-while [ "$x" -le 20 ]
+while [ "$n" -le 20 ]
 do
     echo "$n"
     case $n in
