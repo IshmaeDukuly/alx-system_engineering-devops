@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Ishmael Dukuly
-# This wiil read, and extract  file
+# This wiil read, and extract fields in file
 
 FILE="/etc/passwd"
 
