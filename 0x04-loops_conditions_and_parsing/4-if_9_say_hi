@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# The Script that shows the "Best SChool" 10 times and also ouput yes
+n=1
+while [ "$n" -le 10 ]
+do
+    echo "Best School"
+    if [ "$n" -eq 9 ]; then
+	echo "Hi"
+    fi
+    (( n++ ))
+done
+
