@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Ishmael Dukuly
+# This wiil read, and extract  file
+
+FILE="/etc/passwd"
+
+while read LINE
+do
+    echo "$LINE" | cut -d ":" -f1,3,6
+done < "$FILE"
+
